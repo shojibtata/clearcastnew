@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Clearcast",
+    "slug": "clearcast",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.clearcast.weather",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Clearcast uses your location to show the weather where you are."
+        }
+      ]
+    ]
+  }
+}
